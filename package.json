@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Create a zero-coverage baseline of the specified files/patterns. Make a baseline before your \"real\" coverage run to ensure that your coverage report includes all files, not just those that were actually loaded by your test suite.",
   "main": "istanbul-baseline.js",
+  "bin": {
+    "istanbul-baseline": "istanbul-baseline.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
