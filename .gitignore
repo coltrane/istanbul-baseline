@@ -1,3 +1,4 @@
+*.swp
 .idea
 /node/
 node_modules
